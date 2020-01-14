@@ -1,6 +1,7 @@
 /*
 MySQL - 5.7.22
-*/
+*/
+
 CREATE DATABASE java-console-store` 
 
 USE `java-console-store`;
@@ -27,4 +28,5 @@ CREATE TABLE `book` (
   `date` date DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 
